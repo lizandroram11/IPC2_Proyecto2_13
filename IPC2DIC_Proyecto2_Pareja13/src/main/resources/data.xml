@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DatosIniciales>
+
+    <Centros>
+        <Centro id="C1" nombre="Centro Norte" ciudad="Guatemala" capacidad="5"/>
+        <Centro id="C2" nombre="Centro Sur" ciudad="Antigua" capacidad="3"/>
+    </Centros>
+
+    <Rutas>
+        <Ruta id="R1" origen="C1" destino="C2" distancia="25.5"/>
+        <Ruta id="R2" origen="C2" destino="C1" distancia="25.5"/>
+    </Rutas>
+
+    <Mensajeros>
+        <Mensajero id="M1" nombre="Carlos" capacidad="10" centroActual="C1"/>
+        <Mensajero id="M2" nombre="Ana" capacidad="5" centroActual="C2"/>
+    </Mensajeros>
+
+    <Paquetes>
+        <Paquete id="P1" cliente="Lizandro" peso="4.5" destino="C2" centroActual="C1"/>
+        <Paquete id="P2" cliente="Maria" peso="2.0" destino="C1" centroActual="C2"/>
+    </Paquetes>
+
+    <Solicitudes>
+        <Solicitud id="S1" tipo="EnvioNormal" paqueteId="P1" prioridad="1"/>
+        <Solicitud id="S2" tipo="EnvioUrgente" paqueteId="P2" prioridad="5"/>
+    </Solicitudes>
+
+</DatosIniciales>
