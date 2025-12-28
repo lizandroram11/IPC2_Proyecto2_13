@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resultadoLogitrack>
+    <estadisticas>
+        <paquetesProcesados>0</paquetesProcesados>
+        <solicitudesAtendidas>0</solicitudesAtendidas>
+        <mensajerosActivos>0</mensajerosActivos>
+    </estadisticas>
+    <centros>
+        <centro id="C002">
+            <paquetesActuales>2</paquetesActuales>
+            <mensajerosDisponibles>1</mensajerosDisponibles>
+        </centro>
+        <centro id="C001">
+            <paquetesActuales>2</paquetesActuales>
+            <mensajerosDisponibles>1</mensajerosDisponibles>
+        </centro>
+        <centro id="C1">
+            <paquetesActuales>1</paquetesActuales>
+            <mensajerosDisponibles>1</mensajerosDisponibles>
+        </centro>
+        <centro id="C2">
+            <paquetesActuales>1</paquetesActuales>
+            <mensajerosDisponibles>1</mensajerosDisponibles>
+        </centro>
+        <centro id="C003">
+            <paquetesActuales>1</paquetesActuales>
+            <mensajerosDisponibles>1</mensajerosDisponibles>
+        </centro>
+    </centros>
+    <mensajeros>
+        <mensajero estado="DISPONIBLE" id="M1"/>
+        <mensajero estado="DISPONIBLE" id="M2"/>
+        <mensajero estado="DISPONIBLE" id="M003"/>
+        <mensajero estado="DISPONIBLE" id="M002"/>
+        <mensajero estado="DISPONIBLE" id="M001"/>
+    </mensajeros>
+    <paquetes>
+        <paquete centroActual="C003" estado="PENDIENTE" id="P005"/>
+        <paquete centroActual="C1" estado="PENDIENTE" id="P1"/>
+        <paquete centroActual="C002" estado="PENDIENTE" id="P004"/>
+        <paquete centroActual="C2" estado="PENDIENTE" id="P2"/>
+        <paquete centroActual="C001" estado="PENDIENTE" id="P001"/>
+        <paquete centroActual="C002" estado="PENDIENTE" id="P003"/>
+        <paquete centroActual="C001" estado="PENDIENTE" id="P002"/>
+    </paquetes>
+    <solicitudes>
+        <solicitud estado="PENDIENTE" id="S002" paquete="P002"/>
+        <solicitud estado="PENDIENTE" id="S001" paquete="P001"/>
+        <solicitud estado="PENDIENTE" id="S005" paquete="P005"/>
+        <solicitud estado="PENDIENTE" id="S1" paquete="P1"/>
+        <solicitud estado="PENDIENTE" id="S003" paquete="P003"/>
+        <solicitud estado="PENDIENTE" id="S2" paquete="P2"/>
+        <solicitud estado="PENDIENTE" id="S004" paquete="P004"/>
+    </solicitudes>
+</resultadoLogitrack>
