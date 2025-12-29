@@ -1,6 +1,7 @@
 // src/components/Importar.js
 import React, { useState } from "react";
 import { importarArchivo } from "../services/api";
+import "../styles/Importar.css";
 
 function Importar() {
   const [file, setFile] = useState(null);
@@ -9,25 +10,30 @@ function Importar() {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!file) {
-      alert("Por favor selecciona un archivo XML");
+      alert("Selecciona un archivo XML");
       return;
     }
-
     importarArchivo(file)
-      .then(res => setMensaje(res.data))
-      .catch(err => setMensaje("Error al importar: " + err));
+      .then((res) => setMensaje(res.data))
+      .catch((err) => setMensaje("Error al importar: " + err));
   };
 
   return (
-    <div>
-      <h2>Importar Datos desde XML</h2>
-      <form onSubmit={handleSubmit}>
-        <input type="file" accept=".xml" onChange={e => setFile(e.target.files[0])} />
-        <button type="submit">Importar</button>
+    <div className="importar-container">
+      <h2 className="titulo">Importar XML</h2>
+      <form onSubmit={handleSubmit} className="form-importar">
+        <input
+          type="file"
+          accept=".xml"
+          onChange={(e) => setFile(e.target.files[0])}
+        />
+        <button type="submit" className="btn-importar">
+          Importar
+        </button>
       </form>
 
       {mensaje && (
-        <div style={{ marginTop: "20px" }}>
+        <div className="resultado-importar">
           <strong>{mensaje}</strong>
         </div>
       )}
@@ -36,4 +42,3 @@ function Importar() {
 }
 
 export default Importar;
-

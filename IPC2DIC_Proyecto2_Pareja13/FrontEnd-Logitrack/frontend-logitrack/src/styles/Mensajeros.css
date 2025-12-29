@@ -1,0 +1,76 @@
+/* src/styles/Mensajeros.css */
+.mensajeros-container {
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.titulo {
+  text-align: center;
+  color: #17a2b8;
+  margin-bottom: 20px;
+}
+
+.form-mensajeros {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.form-mensajeros input {
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn-crear {
+  background: #17a2b8;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-estado {
+  margin: 2px;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+}
+
+.btn-estado.disponible {
+  background-color: #28a745; /* verde */
+}
+
+.btn-estado.transito {
+  background-color: #ffc107; /* amarillo */
+  color: black;
+}
+
+.btn-reasignar {
+  background-color: #007bff; /* azul */
+  color: white;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.tabla-mensajeros {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabla-mensajeros th,
+.tabla-mensajeros td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.tabla-mensajeros th {
+  background-color: #17a2b8;
+  color: white;
+}

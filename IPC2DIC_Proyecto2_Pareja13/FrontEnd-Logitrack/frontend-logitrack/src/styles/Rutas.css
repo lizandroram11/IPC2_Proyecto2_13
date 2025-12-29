@@ -1,0 +1,66 @@
+/* src/styles/Rutas.css */
+.rutas-container {
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.titulo {
+  text-align: center;
+  color: #28a745;
+  margin-bottom: 20px;
+}
+
+.form-rutas {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.form-rutas input {
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn-crear {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-accion {
+  margin: 2px;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+}
+
+.btn-accion.actualizar {
+  background-color: #17a2b8; /* azul */
+}
+
+.btn-accion.eliminar {
+  background-color: #dc3545; /* rojo */
+}
+
+.tabla-rutas {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabla-rutas th,
+.tabla-rutas td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.tabla-rutas th {
+  background-color: #28a745;
+  color: white;
+}

@@ -1,0 +1,52 @@
+/* src/styles/Navbar.css */
+/* Base dark bar */
+.app-navbar {
+  background-color: #1f2327 !important;
+  padding-block: 15px;
+}
+
+/* Brand */
+.app-navbar .navbar-brand.brand {
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  color: #fff !important;
+}
+
+/* Links */
+.app-navbar .nav-link,
+.app-navbar .dropdown-item {
+  color: #fff !important;
+  text-decoration: none;
+}
+
+/* Hover states */
+.app-navbar .nav-link:hover,
+.app-navbar .dropdown-item:hover {
+  color: #ffc107 !important; /* amarillo */
+}
+
+/* Dropdown menu background */
+.app-navbar .dropdown-menu {
+  background-color: #2a2f35;
+  border: 1px solid #3a4047;
+}
+
+/* Dropdown items */
+.app-navbar .dropdown-item {
+  padding: 8px 14px;
+}
+
+/* Toggle (hamburger) color */
+.app-navbar .navbar-toggler {
+  border-color: #3a4047;
+}
+.app-navbar .navbar-toggler-icon {
+  filter: invert(1); /* icono claro sobre fondo oscuro */
+}
+
+/* Container spacing on mobile */
+@media (max-width: 600px) {
+  .app-navbar .navbar-collapse {
+    padding-top: 10px;
+  }
+}

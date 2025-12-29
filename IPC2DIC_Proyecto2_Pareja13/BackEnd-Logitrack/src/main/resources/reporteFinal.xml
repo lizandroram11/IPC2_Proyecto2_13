@@ -5,26 +5,8 @@
         <solicitudesAtendidas>0</solicitudesAtendidas>
         <mensajerosActivos>0</mensajerosActivos>
     </estadisticas>
-    <centros>
-        <centro id="C1">
-            <paquetesActuales>1</paquetesActuales>
-            <mensajerosDisponibles>1</mensajerosDisponibles>
-        </centro>
-        <centro id="C2">
-            <paquetesActuales>1</paquetesActuales>
-            <mensajerosDisponibles>1</mensajerosDisponibles>
-        </centro>
-    </centros>
-    <mensajeros>
-        <mensajero estado="DISPONIBLE" id="M1"/>
-        <mensajero estado="DISPONIBLE" id="M2"/>
-    </mensajeros>
-    <paquetes>
-        <paquete centroActual="C1" estado="PENDIENTE" id="P1"/>
-        <paquete centroActual="C2" estado="PENDIENTE" id="P2"/>
-    </paquetes>
-    <solicitudes>
-        <solicitud estado="PENDIENTE" id="S2" paquete="P2"/>
-        <solicitud estado="PENDIENTE" id="S1" paquete="P1"/>
-    </solicitudes>
+    <centros/>
+    <mensajeros/>
+    <paquetes/>
+    <solicitudes/>
 </resultadoLogitrack>

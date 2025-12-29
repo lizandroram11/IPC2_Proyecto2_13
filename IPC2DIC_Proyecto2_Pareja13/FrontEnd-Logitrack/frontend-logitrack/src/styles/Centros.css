@@ -1,0 +1,6 @@
+/* src/styles/Centros.css */
+.centros-container { padding: 20px; background: #f8f9fa; border-radius: 8px; }
+.titulo { text-align: center; color: #007bff; margin-bottom: 20px; }
+.tabla-centros { width: 100%; border-collapse: collapse; }
+.tabla-centros th, .tabla-centros td { border: 1px solid #ddd; padding: 8px; }
+.tabla-centros th { background-color: #007bff; color: white; }

@@ -16,9 +16,9 @@ public class DataLoader {
                                PaqueteRepository paqueteRepo,
                                SolicitudRepository solicitudRepo) {
         return args -> {
-            XmlImporter.importarDatos("src/main/resources/data.xml",
-                    centroRepo, rutaRepo, mensajeroRepo, paqueteRepo, solicitudRepo);
-            System.out.println("Datos iniciales cargados desde data.xml");
+            //XmlImporter.importarDatos("src/main/resources/data.xml",
+             //       centroRepo, rutaRepo, mensajeroRepo, paqueteRepo, solicitudRepo);
+            //System.out.println("Datos iniciales cargados desde data.xml");
         };
     }
 }

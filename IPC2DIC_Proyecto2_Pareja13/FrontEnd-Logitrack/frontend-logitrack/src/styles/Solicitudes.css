@@ -1,0 +1,93 @@
+/* src/styles/Solicitudes.css */
+
+.solicitudes-container {
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.titulo {
+  text-align: center;
+  color: #6f42c1;
+  margin-bottom: 20px;
+}
+
+.form-solicitudes {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.form-solicitudes input,
+.form-solicitudes select {
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn-crear {
+  background-color: #6f42c1;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-crear:hover {
+  background-color: #5a36a5;
+}
+
+.acciones-procesar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.btn-procesar {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-procesar.uno {
+  background-color: #007bff;
+}
+
+.btn-procesar.varias {
+  background-color: #17a2b8;
+}
+
+.input-n {
+  width: 80px;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.resultado-procesar {
+  background: #fff;
+  border: 1px solid #e9ecef;
+  border-radius: 6px;
+  padding: 12px;
+  margin-bottom: 16px;
+}
+
+.tabla-solicitudes {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabla-solicitudes th,
+.tabla-solicitudes td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.tabla-solicitudes th {
+  background-color: #6f42c1;
+  color: white;
+}

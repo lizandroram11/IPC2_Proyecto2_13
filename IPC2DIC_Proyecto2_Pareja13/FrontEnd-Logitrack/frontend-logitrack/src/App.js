@@ -13,6 +13,7 @@ import Solicitudes from "./components/Solicitudes";
 import Reporte from "./components/Reporte";
 import Rutas from "./components/Rutas";
 import Importar from "./components/Importar";   // nuevo componente
+import Envios from "./components/Envios";
 
 function App() {
   return (
@@ -49,8 +50,11 @@ function App() {
           {/* Importar */}
           <Route path="/importar" element={<Importar />} /> {/* nueva ruta */}
 
+          {/* Envios */}
+          <Route path="/envios" element={<Envios />} />
+
           {/* Ruta por defecto */}
-          <Route path="/" element={<h2>Bienvenido a LogiTrack 🚚</h2>} />
+          <Route path="/" element={<h2>Bienvenido a LogiTrack </h2>} />
         </Routes>
       </div>
     </Router>
